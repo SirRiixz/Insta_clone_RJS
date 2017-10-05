@@ -9,6 +9,16 @@
   </head>
 
   <body>
+
+    <ul class="hmenu">
+
+      <%= render 'home/registration_items' %>
+      <%= render 'home/login_items' %>
+
+
+    </ul>
     <%= yield %>
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
   </body>
 </html>
